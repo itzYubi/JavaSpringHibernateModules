@@ -1,0 +1,5 @@
+package com.samsung.exception;
+
+public class EmployeeException {
+
+}

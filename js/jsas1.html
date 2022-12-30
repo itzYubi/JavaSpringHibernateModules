@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Factor</title>
+</head>
+
+<script>
+    function CommonFactors(){
+        let num1=(document.getElementById('a')).value
+        let num2=(document.getElementById('b')).value
+        let sm=(num2>num1)?num1:num2
+        let result=''
+        for(let i=1;i<=sm;++i)
+        {
+            if(num1%i==0 && num2%i==0)
+            {
+                result+='<li>'+i+'</li>'
+            }
+        }
+        document.getElementById('Factors').innerHTML= result
+    }
+    
+</script>
+
+<body>
+    Number 1: <input type="number" id="a"/>
+    Number 2: <input type="number" id="b"/>
+    <button onclick="CommonFactors();">Common Factors</button>
+    <ul id='Factors'>
+
+    </ul>
+</body>
+</html>

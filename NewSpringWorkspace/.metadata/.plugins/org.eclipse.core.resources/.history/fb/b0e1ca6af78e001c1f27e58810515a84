@@ -1,0 +1,5 @@
+package com.samsung.controller;
+
+public class HelloController {
+
+}

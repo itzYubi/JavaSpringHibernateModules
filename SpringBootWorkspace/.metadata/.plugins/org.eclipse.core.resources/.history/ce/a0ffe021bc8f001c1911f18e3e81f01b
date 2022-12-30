@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title>Home-page</title>
+	</head>
+	<body>
+		<jsp:include page="/commons/header-segment" />
+	</body>
+</html>

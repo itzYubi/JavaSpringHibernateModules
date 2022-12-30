@@ -1,0 +1,5 @@
+package com.samsung.model;
+
+public class Employee {
+
+}

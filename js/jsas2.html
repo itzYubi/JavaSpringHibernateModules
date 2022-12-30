@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function Solve(){
+        let n1= (document.getElementById('a')).value
+        let n2= (document.getElementById('b')).value
+        let Eid= document.getElementById('operator')
+        let divout= document.getElementById('output')
+        var s = Eid.options[Eid.selectedIndex].value;
+        var ans=0;
+        switch(parseInt(s)){
+            case 1: ans=parseInt(n1)+parseInt(n2)
+                    break;
+            case 2: ans=n1-n2
+                    break;
+            case 3: ans=n1*n2
+                    break;
+            case 4: ans=n1/n2
+                    break;                
+        }
+        divout.innerText= 'The answer is ' + ans
+    }
+</script>
+<body>
+    Number1: <input type="number" id="a"><br>
+    Number2: <input type="number" id="b"><br>
+    <select id="operator">
+        <option value="1">+</option>
+        <option value="2">-</option>
+        <option value="3">*</option>
+        <option value="4">/</option>
+    </select>
+    <button onclick="Solve()">Solve</button>
+    <p></p>
+    <div id="output"></div>
+</body>
+</html>
