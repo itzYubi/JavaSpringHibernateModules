@@ -1,5 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\utkar\OneDrive\Desktop\Samsung\SpringBootWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\92937479.index
-\spring-boot-web-mvc-demo\src\main\java
-C:\Users\utkar\OneDrive\Desktop\Samsung\SpringBootWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\986342848.index
-\spring-boot-web-mvc-demo\src\main\java

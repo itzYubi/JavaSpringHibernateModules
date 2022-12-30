@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\utkar\OneDrive\Desktop\Samsung\FinalProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3980917731.index
-\contact-management-portal\src\main\java
